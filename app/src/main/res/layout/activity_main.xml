@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lee.user.linearviewpagerdemo.MyLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/ll_root"
+    tools:context="com.lee.user.linearviewpagerdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_left"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:text="刷新"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="-200dp"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_middle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:background="#ff99cc00"
+        android:text="加载"
+        android:layout_marginLeft="0dp"/>
+
+</com.lee.user.linearviewpagerdemo.MyLinearLayout>
